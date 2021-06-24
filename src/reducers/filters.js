@@ -5,7 +5,7 @@ import {
   SET_END_DATE,
   SORT_BY_AMOUNT,
   SORT_BY_DATE
-} from '../constants/constants';
+} from '../constants/filterConstants';
 
 const filtersReducerDefaultState = {
   text: '',

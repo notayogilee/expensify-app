@@ -3,7 +3,7 @@ import {
   ADD_EXPENSE,
   REMOVE_EXPENSE,
   EDIT_EXPENSE
-} from '../constants/constants';
+} from '../constants/expenseConstants';
 
 export const addExpense = (
   {

@@ -7,7 +7,7 @@ import {
   ADD_EXPENSE,
   REMOVE_EXPENSE,
   EDIT_EXPENSE
-} from '../../constants/constants';
+} from '../../constants/expenseConstants';
 
 test('should setup remove expense action object', () => {
   const action = removeExpense({ id: '123abc' });
