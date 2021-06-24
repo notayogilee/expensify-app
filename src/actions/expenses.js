@@ -1,6 +1,10 @@
 import { v4 as uuidv4 } from 'uuid';
+import {
+  ADD_EXPENSE,
+  REMOVE_EXPENSE,
+  EDIT_EXPENSE
+} from '../constants/constants';
 
-// ADD_EXPENSE
 export const addExpense = (
   {
     description = '',
@@ -9,7 +13,7 @@ export const addExpense = (
     createdAt = 0
   } = {}
 ) => ({
-  type: 'ADD_EXPENSE',
+  type: ADD_EXPENSE,
   expense: {
     id: uuidv4(),
     description,
@@ -19,15 +23,13 @@ export const addExpense = (
   }
 });
 
-// Remove Expense 
 export const removeExpense = ({ id } = {}) => ({
-  type: 'REMOVE_EXPENSE',
+  type: REMOVE_EXPENSE,
   id
 });
 
-// Edit Expense
 export const editExpense = (id, updates) => ({
-  type: 'EDIT_EXPENSE',
+  type: EDIT_EXPENSE,
   id,
   updates
 });
