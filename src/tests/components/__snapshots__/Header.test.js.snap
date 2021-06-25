@@ -5,18 +5,18 @@ exports[`should render Header correctly 1`] = `
   <h1>
     Expensify
   </h1>
-  <Unknown
+  <[object Object]
     activeClassName="selected"
     exact={true}
     to="/"
   >
     Home
-  </Unknown>
-  <Unknown
+  </[object Object]>
+  <[object Object]
     activeClassName="selected"
     to="/create"
   >
     Create Expense
-  </Unknown>
+  </[object Object]>
 </header>
 `;
