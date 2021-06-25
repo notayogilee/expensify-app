@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Header correctly 1`] = `
+<header>
+  <h1>
+    Expensify
+  </h1>
+  <Unknown
+    activeClassName="selected"
+    exact={true}
+    to="/"
+  >
+    Home
+  </Unknown>
+  <Unknown
+    activeClassName="selected"
+    to="/create"
+  >
+    Create Expense
+  </Unknown>
+</header>
+`;
